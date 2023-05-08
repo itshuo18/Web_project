@@ -1,5 +1,7 @@
 package com.itheima;
 
+import com.example.HeaderParser;
+import com.example.TokenParser;
 import com.google.gson.Gson;
 import com.itheima.controller.DeptController;
 import com.itheima.pojo.Result;
@@ -77,8 +79,13 @@ class TliasWebManagementApplicationTests {
         System.out.println(json);
     }
 
-//    @Test
-//    public void testTokenParser(){
-//        System.out.println(applicationContext.getBean(TokenParser.class));
-//    }
+    @Test
+    public void testTokenParser(){
+        System.out.println(applicationContext.getBean(TokenParser.class));
+    }
+    
+    @Test
+    public void testHeaderParser(){
+        System.out.println(applicationContext.getBean(HeaderParser.class));
+    }
 }
