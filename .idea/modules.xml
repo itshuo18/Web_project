@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Web_project.iml" filepath="$PROJECT_DIR$/Web_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myDynamicProxy/myDynamicProxy.iml" filepath="$PROJECT_DIR$/myDynamicProxy/myDynamicProxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro_Javaweb_begin/pro_Javaweb_begin.iml" filepath="$PROJECT_DIR$/pro_Javaweb_begin/pro_Javaweb_begin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tlias-web-management/tlias-web-management.iml" filepath="$PROJECT_DIR$/tlias-web-management/tlias-web-management.iml" />
+    </modules>
+  </component>
+</project>
