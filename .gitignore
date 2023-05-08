@@ -1,0 +1,5 @@
+# 项目排除路径
+/maven_project02/target/
+/out/
+/springboot-mybatis-crud/target/
+/tlias-web-management/target/
