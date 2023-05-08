@@ -1,6 +1,8 @@
 package com.itheima;
 
+import com.google.gson.Gson;
 import com.itheima.controller.DeptController;
+import com.itheima.pojo.Result;
 import org.dom4j.Document;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
@@ -66,4 +68,17 @@ class TliasWebManagementApplicationTests {
         Object saxReader = applicationContext.getBean("reader");
         System.out.println(saxReader);
     }
+
+    @Autowired
+    private Gson gson;
+    @Test
+    public void testJson(){
+        String json = gson.toJson(Result.success());
+        System.out.println(json);
+    }
+
+//    @Test
+//    public void testTokenParser(){
+//        System.out.println(applicationContext.getBean(TokenParser.class));
+//    }
 }
