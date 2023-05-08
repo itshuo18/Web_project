@@ -12,6 +12,7 @@
         <module name="springboot-mybatis-crud" />
         <module name="springboot-mybatis-quickstart" />
         <module name="maven_project02" />
+        <module name="itheima-utils" />
       </profile>
     </annotationProcessing>
   </component>
